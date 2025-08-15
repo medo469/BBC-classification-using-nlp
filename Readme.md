@@ -1,5 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>
-
 # BBC News Text Classification
 
 A complete project to classify BBC News articles using classical and deep learning models.
@@ -7,7 +5,7 @@ The notebook contains data loading, preprocessing, baseline modeling using TF-ID
 
 ***
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 project/
@@ -21,7 +19,7 @@ project/
 
 ***
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1. Download Dataset
 
@@ -79,7 +77,7 @@ Make sure you have the trained model, tokenizer, and label encoder loaded in the
 
 ***
 
-## ⚙️ Explanation
+## Explanation
 
 - **assignment.ipynb:**
 Contains all code to clean, preprocess, and model using traditional ML (TF-IDF + Naive Bayes). Includes improvements by fine-tuning a DistilBERT transformer implemented with PyTorch \& HuggingFace Transformers library.
@@ -88,7 +86,7 @@ A minimal Streamlit interface connected to the DistilBERT classifier for live te
 
 ***
 
-## ⚖️ Ethics \& Limitations
+## Ethics \& Limitations
 
 - The dataset is limited to BBC News articles, which might introduce bias favoring topics common in that source.
 - Models can misclassify articles, potentially misleading users if used blindly.
@@ -99,7 +97,7 @@ A minimal Streamlit interface connected to the DistilBERT classifier for live te
 
 ***
 
-## 📝 Troubleshooting
+## Troubleshooting
 
 - If `spacy` throws errors, make sure to run the download command for the English model:
 
@@ -112,19 +110,18 @@ python -m spacy download en_core_web_sm
 
 ***
 
-## 👩💻 Contributions and Questions
+## Contributions and Questions
 
 If you find issues or want to improve the project, please open an issue or submit a pull request.
 For help or questions, reach out in the project's GitHub discussions or contact me directly!
 
 ***
 
-**Author:** [Your Name or GitHub handle]
+**Author:** [Mohammed Osman]
 _Sudanese ML Enthusiast_
 
 ***
 
-لو عايز ترجمة أو شرح إضافي لأي جزء في الـREADME أو محتاج زي ما هو بالعربي، قول لي!
 
 <div style="text-align: center">⁂</div>
 
